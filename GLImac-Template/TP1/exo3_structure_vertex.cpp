@@ -1,14 +1,35 @@
 #include <glimac/SDLWindowManager.hpp>
 #include <GL/glew.h>
 #include <iostream>
+#include <cstddef>
 #include <glimac/Program.hpp>
 #include <glimac/FilePath.hpp>
+#include <glimac/glm.hpp>
 
 using namespace glimac;
 
+struct Vertex2DColor{
+	glm::vec2 position;
+	glm::vec3 color;
+
+	Vertex2DColor(){
+		this->position.x = 0;
+		this->position.y = 0;
+		this->color.r = 0;
+		this->color.g = 0;
+		this->color.b = 0;
+	}
+
+	Vertex2DColor(glm::vec2 position, glm::vec3 color)
+	: position(position), 
+		color(color)
+	{
+	}
+};
+
 int main(int argc, char** argv) {
     // Initialize SDL and open a window
-    SDLWindowManager windowManager(800, 600, "TP1 exo 2 Triangle couleur");
+    SDLWindowManager windowManager(800, 600, "TP1 exo 3 Structure Vertex");
 
     // Initialize glew for OpenGL3+ support
     GLenum glewInitError = glewInit();
@@ -37,12 +58,13 @@ int main(int argc, char** argv) {
     glGenBuffers(1, &vbo);
     glBindBuffer(GL_ARRAY_BUFFER, vbo); //Binder la VBO
 
-    GLfloat vertices[] = { -0.5f, -0.5f, 1.f, 0.f, 0.f, //Premier sommet rouge
-        0.5f, -0.5f, 0.f, 1.f, 0.f, //Deuxieme sommet vert
-        0.0f, 0.5f, 0.f, 0.f, 1.f //Troisieme sommet bleu
+    Vertex2DColor vertices[] = { 
+    	Vertex2DColor(glm::vec2(-0.5f, -0.5f), glm::vec3(1.f, 0.f, 0.f)), //Premier sommet rouge
+        Vertex2DColor(glm::vec2(0.5f, -0.5f), glm::vec3(0.f, 1.f, 0.f)), //Deuxieme sommet vert
+        Vertex2DColor(glm::vec2(0.0f, 0.5f), glm::vec3(0.f, 0.f, 1.f)) //Troisieme sommet bleu
     };
 
-    glBufferData(GL_ARRAY_BUFFER, 15 * sizeof(GLfloat), vertices, GL_STATIC_DRAW);
+    glBufferData(GL_ARRAY_BUFFER, 3 * sizeof(Vertex2DColor), vertices, GL_STATIC_DRAW);
 
     glBindBuffer(GL_ARRAY_BUFFER, 0); // debinder la VBO
 
@@ -53,8 +75,8 @@ int main(int argc, char** argv) {
     glEnableVertexAttribArray(VERTEX_ATTR_COULEUR);
 
     glBindBuffer(GL_ARRAY_BUFFER, vbo); //Binder la VBO
-    glVertexAttribPointer(VERTEX_ATTR_POSITION, 2, GL_FLOAT, GL_FALSE, 5*sizeof(GLfloat), 0);
-    glVertexAttribPointer(VERTEX_ATTR_COULEUR, 3, GL_FLOAT, GL_FALSE, 5*sizeof(GLfloat), (const GLvoid*)(2*sizeof(GLfloat)));
+    glVertexAttribPointer(VERTEX_ATTR_POSITION, 2, GL_FLOAT, GL_FALSE, sizeof(Vertex2DColor), 0);
+    glVertexAttribPointer(VERTEX_ATTR_COULEUR, 3, GL_FLOAT, GL_FALSE, sizeof(Vertex2DColor), (const GLvoid*)(2*sizeof(GLfloat)));
     glBindBuffer(GL_ARRAY_BUFFER, 0); // debinder la VBO
 
     glBindVertexArray(0); //Debinder la VAO
