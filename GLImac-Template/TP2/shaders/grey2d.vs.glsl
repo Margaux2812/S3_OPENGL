@@ -51,8 +51,14 @@ void main() {
   positionFinale = (scale(2, 0.5) * vec3(aVertexPosition, 1)).xy;
   */
 
-  /* Rotation d'angle */
+  /* Rotation d'angle
   positionFinale = (rotate(45) * vec3(aVertexPosition, 1)).xy;
+  */
+
+  /*	Enchainement de base
+  positionFinale = (vec3(aVertexPosition, 1) * translate(0.5, 0) * rotate(45) * scale(0.5, 0.5)).xy;*/
+
+  positionFinale = (vec3(aVertexPosition, 1) * rotate(45) * translate(0.5, 0) * scale(0.5, 0.5)).xy;
 
   gl_Position = vec4(positionFinale, 0, 1);
 };
