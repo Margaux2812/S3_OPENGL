@@ -111,6 +111,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+TP2/CMakeFiles/TP2_exo3_mandelbroot.dir/rule:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_exo3_mandelbroot.dir/rule
+.PHONY : TP2/CMakeFiles/TP2_exo3_mandelbroot.dir/rule
+
+# Convenience name for target.
+TP2_exo3_mandelbroot: TP2/CMakeFiles/TP2_exo3_mandelbroot.dir/rule
+
+.PHONY : TP2_exo3_mandelbroot
+
+# fast build rule for target.
+TP2_exo3_mandelbroot/fast:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo3_mandelbroot.dir/build.make TP2/CMakeFiles/TP2_exo3_mandelbroot.dir/build
+.PHONY : TP2_exo3_mandelbroot/fast
+
+# Convenience name for target.
 TP2/CMakeFiles/TP2_exo1_triangle_couleur.dir/rule:
 	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_exo1_triangle_couleur.dir/rule
 .PHONY : TP2/CMakeFiles/TP2_exo1_triangle_couleur.dir/rule
@@ -194,6 +209,33 @@ exo2_triangle_nb.cpp.s:
 	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo2_triangle_nb.dir/build.make TP2/CMakeFiles/TP2_exo2_triangle_nb.dir/exo2_triangle_nb.cpp.s
 .PHONY : exo2_triangle_nb.cpp.s
 
+exo3_mandelbroot.o: exo3_mandelbroot.cpp.o
+
+.PHONY : exo3_mandelbroot.o
+
+# target to build an object file
+exo3_mandelbroot.cpp.o:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo3_mandelbroot.dir/build.make TP2/CMakeFiles/TP2_exo3_mandelbroot.dir/exo3_mandelbroot.cpp.o
+.PHONY : exo3_mandelbroot.cpp.o
+
+exo3_mandelbroot.i: exo3_mandelbroot.cpp.i
+
+.PHONY : exo3_mandelbroot.i
+
+# target to preprocess a source file
+exo3_mandelbroot.cpp.i:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo3_mandelbroot.dir/build.make TP2/CMakeFiles/TP2_exo3_mandelbroot.dir/exo3_mandelbroot.cpp.i
+.PHONY : exo3_mandelbroot.cpp.i
+
+exo3_mandelbroot.s: exo3_mandelbroot.cpp.s
+
+.PHONY : exo3_mandelbroot.s
+
+# target to generate assembly for a file
+exo3_mandelbroot.cpp.s:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo3_mandelbroot.dir/build.make TP2/CMakeFiles/TP2_exo3_mandelbroot.dir/exo3_mandelbroot.cpp.s
+.PHONY : exo3_mandelbroot.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -202,6 +244,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... TP2_exo3_mandelbroot"
 	@echo "... TP2_exo1_triangle_couleur"
 	@echo "... TP2_exo2_triangle_nb"
 	@echo "... exo1_triangle_couleur.o"
@@ -210,6 +253,9 @@ help:
 	@echo "... exo2_triangle_nb.o"
 	@echo "... exo2_triangle_nb.i"
 	@echo "... exo2_triangle_nb.s"
+	@echo "... exo3_mandelbroot.o"
+	@echo "... exo3_mandelbroot.i"
+	@echo "... exo3_mandelbroot.s"
 .PHONY : help
 
 

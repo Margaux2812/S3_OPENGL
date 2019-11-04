@@ -15,6 +15,7 @@
 /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/TP1/CMakeFiles/TP1_exo4_quad_couleur.dir
 /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/TP2/CMakeFiles/rebuild_cache.dir
 /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/TP2/CMakeFiles/edit_cache.dir
+/home/margaux/Documents/S3_OPENGL/GLImac-Template-build/TP2/CMakeFiles/TP2_exo3_mandelbroot.dir
 /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/TP2/CMakeFiles/TP2_exo1_triangle_couleur.dir
 /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/TP2/CMakeFiles/TP2_exo2_triangle_nb.dir
 /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/TP_template/CMakeFiles/rebuild_cache.dir
