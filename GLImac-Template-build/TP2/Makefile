@@ -111,21 +111,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-TP2/CMakeFiles/TP2_exo3_mandelbroot.dir/rule:
-	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_exo3_mandelbroot.dir/rule
-.PHONY : TP2/CMakeFiles/TP2_exo3_mandelbroot.dir/rule
-
-# Convenience name for target.
-TP2_exo3_mandelbroot: TP2/CMakeFiles/TP2_exo3_mandelbroot.dir/rule
-
-.PHONY : TP2_exo3_mandelbroot
-
-# fast build rule for target.
-TP2_exo3_mandelbroot/fast:
-	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo3_mandelbroot.dir/build.make TP2/CMakeFiles/TP2_exo3_mandelbroot.dir/build
-.PHONY : TP2_exo3_mandelbroot/fast
-
-# Convenience name for target.
 TP2/CMakeFiles/TP2_exo1_triangle_couleur.dir/rule:
 	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_exo1_triangle_couleur.dir/rule
 .PHONY : TP2/CMakeFiles/TP2_exo1_triangle_couleur.dir/rule
@@ -154,6 +139,36 @@ TP2_exo2_triangle_nb: TP2/CMakeFiles/TP2_exo2_triangle_nb.dir/rule
 TP2_exo2_triangle_nb/fast:
 	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo2_triangle_nb.dir/build.make TP2/CMakeFiles/TP2_exo2_triangle_nb.dir/build
 .PHONY : TP2_exo2_triangle_nb/fast
+
+# Convenience name for target.
+TP2/CMakeFiles/TP2_exo3_mandelbroot.dir/rule:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_exo3_mandelbroot.dir/rule
+.PHONY : TP2/CMakeFiles/TP2_exo3_mandelbroot.dir/rule
+
+# Convenience name for target.
+TP2_exo3_mandelbroot: TP2/CMakeFiles/TP2_exo3_mandelbroot.dir/rule
+
+.PHONY : TP2_exo3_mandelbroot
+
+# fast build rule for target.
+TP2_exo3_mandelbroot/fast:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo3_mandelbroot.dir/build.make TP2/CMakeFiles/TP2_exo3_mandelbroot.dir/build
+.PHONY : TP2_exo3_mandelbroot/fast
+
+# Convenience name for target.
+TP2/CMakeFiles/TP2_exo4.dir/rule:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_exo4.dir/rule
+.PHONY : TP2/CMakeFiles/TP2_exo4.dir/rule
+
+# Convenience name for target.
+TP2_exo4: TP2/CMakeFiles/TP2_exo4.dir/rule
+
+.PHONY : TP2_exo4
+
+# fast build rule for target.
+TP2_exo4/fast:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo4.dir/build.make TP2/CMakeFiles/TP2_exo4.dir/build
+.PHONY : TP2_exo4/fast
 
 exo1_triangle_couleur.o: exo1_triangle_couleur.cpp.o
 
@@ -236,6 +251,33 @@ exo3_mandelbroot.cpp.s:
 	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo3_mandelbroot.dir/build.make TP2/CMakeFiles/TP2_exo3_mandelbroot.dir/exo3_mandelbroot.cpp.s
 .PHONY : exo3_mandelbroot.cpp.s
 
+exo4.o: exo4.cpp.o
+
+.PHONY : exo4.o
+
+# target to build an object file
+exo4.cpp.o:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo4.dir/build.make TP2/CMakeFiles/TP2_exo4.dir/exo4.cpp.o
+.PHONY : exo4.cpp.o
+
+exo4.i: exo4.cpp.i
+
+.PHONY : exo4.i
+
+# target to preprocess a source file
+exo4.cpp.i:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo4.dir/build.make TP2/CMakeFiles/TP2_exo4.dir/exo4.cpp.i
+.PHONY : exo4.cpp.i
+
+exo4.s: exo4.cpp.s
+
+.PHONY : exo4.s
+
+# target to generate assembly for a file
+exo4.cpp.s:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo4.dir/build.make TP2/CMakeFiles/TP2_exo4.dir/exo4.cpp.s
+.PHONY : exo4.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -243,10 +285,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
-	@echo "... TP2_exo3_mandelbroot"
 	@echo "... TP2_exo1_triangle_couleur"
 	@echo "... TP2_exo2_triangle_nb"
+	@echo "... TP2_exo3_mandelbroot"
+	@echo "... edit_cache"
+	@echo "... TP2_exo4"
 	@echo "... exo1_triangle_couleur.o"
 	@echo "... exo1_triangle_couleur.i"
 	@echo "... exo1_triangle_couleur.s"
@@ -256,6 +299,9 @@ help:
 	@echo "... exo3_mandelbroot.o"
 	@echo "... exo3_mandelbroot.i"
 	@echo "... exo3_mandelbroot.s"
+	@echo "... exo4.o"
+	@echo "... exo4.i"
+	@echo "... exo4.s"
 .PHONY : help
 
 

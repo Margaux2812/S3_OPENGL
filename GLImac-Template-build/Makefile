@@ -228,19 +228,6 @@ TP1_exo4_quad_couleur/fast:
 .PHONY : TP1_exo4_quad_couleur/fast
 
 #=============================================================================
-# Target rules for targets named TP2_exo3_mandelbroot
-
-# Build rule for target.
-TP2_exo3_mandelbroot: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TP2_exo3_mandelbroot
-.PHONY : TP2_exo3_mandelbroot
-
-# fast build rule for target.
-TP2_exo3_mandelbroot/fast:
-	$(MAKE) -f TP2/CMakeFiles/TP2_exo3_mandelbroot.dir/build.make TP2/CMakeFiles/TP2_exo3_mandelbroot.dir/build
-.PHONY : TP2_exo3_mandelbroot/fast
-
-#=============================================================================
 # Target rules for targets named TP2_exo1_triangle_couleur
 
 # Build rule for target.
@@ -265,6 +252,32 @@ TP2_exo2_triangle_nb: cmake_check_build_system
 TP2_exo2_triangle_nb/fast:
 	$(MAKE) -f TP2/CMakeFiles/TP2_exo2_triangle_nb.dir/build.make TP2/CMakeFiles/TP2_exo2_triangle_nb.dir/build
 .PHONY : TP2_exo2_triangle_nb/fast
+
+#=============================================================================
+# Target rules for targets named TP2_exo3_mandelbroot
+
+# Build rule for target.
+TP2_exo3_mandelbroot: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP2_exo3_mandelbroot
+.PHONY : TP2_exo3_mandelbroot
+
+# fast build rule for target.
+TP2_exo3_mandelbroot/fast:
+	$(MAKE) -f TP2/CMakeFiles/TP2_exo3_mandelbroot.dir/build.make TP2/CMakeFiles/TP2_exo3_mandelbroot.dir/build
+.PHONY : TP2_exo3_mandelbroot/fast
+
+#=============================================================================
+# Target rules for targets named TP2_exo4
+
+# Build rule for target.
+TP2_exo4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP2_exo4
+.PHONY : TP2_exo4
+
+# fast build rule for target.
+TP2_exo4/fast:
+	$(MAKE) -f TP2/CMakeFiles/TP2_exo4.dir/build.make TP2/CMakeFiles/TP2_exo4.dir/build
+.PHONY : TP2_exo4/fast
 
 #=============================================================================
 # Target rules for targets named TP_template_SDLtemplate
@@ -322,9 +335,10 @@ help:
 	@echo "... TP1_SDLtemplate"
 	@echo "... TP1_exo3_structure_vertex"
 	@echo "... TP1_exo4_quad_couleur"
-	@echo "... TP2_exo3_mandelbroot"
 	@echo "... TP2_exo1_triangle_couleur"
 	@echo "... TP2_exo2_triangle_nb"
+	@echo "... TP2_exo3_mandelbroot"
+	@echo "... TP2_exo4"
 	@echo "... TP_template_SDLtemplate"
 	@echo "... TPgarbage_SDLtemplate"
 	@echo "... TPgarbage_foo"
