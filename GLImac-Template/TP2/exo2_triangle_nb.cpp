@@ -8,7 +8,7 @@ using namespace glimac;
 
 int main(int argc, char** argv) {
     // Initialize SDL and open a window
-    SDLWindowManager windowManager(800, 600, "TP2 exo 1 Triangle couleur avec des shaders");
+    SDLWindowManager windowManager(800, 600, "TP2 exo 2 Triangle Noir et blanc");
 
     // Initialize glew for OpenGL3+ support
     GLenum glewInitError = glewInit();

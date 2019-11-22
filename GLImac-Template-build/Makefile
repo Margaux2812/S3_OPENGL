@@ -280,6 +280,19 @@ TP2_exo4/fast:
 .PHONY : TP2_exo4/fast
 
 #=============================================================================
+# Target rules for targets named TP2_exo5
+
+# Build rule for target.
+TP2_exo5: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP2_exo5
+.PHONY : TP2_exo5
+
+# fast build rule for target.
+TP2_exo5/fast:
+	$(MAKE) -f TP2/CMakeFiles/TP2_exo5.dir/build.make TP2/CMakeFiles/TP2_exo5.dir/build
+.PHONY : TP2_exo5/fast
+
+#=============================================================================
 # Target rules for targets named TP_template_SDLtemplate
 
 # Build rule for target.
@@ -339,6 +352,7 @@ help:
 	@echo "... TP2_exo2_triangle_nb"
 	@echo "... TP2_exo3_mandelbroot"
 	@echo "... TP2_exo4"
+	@echo "... TP2_exo5"
 	@echo "... TP_template_SDLtemplate"
 	@echo "... TPgarbage_SDLtemplate"
 	@echo "... TPgarbage_foo"
