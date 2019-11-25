@@ -42,6 +42,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/margaux/Documents/S3_OPENGL/GLImac-Template-build/glimac/cmake_install.cmake")
   include("/home/margaux/Documents/S3_OPENGL/GLImac-Template-build/TP1/cmake_install.cmake")
   include("/home/margaux/Documents/S3_OPENGL/GLImac-Template-build/TP2/cmake_install.cmake")
+  include("/home/margaux/Documents/S3_OPENGL/GLImac-Template-build/TP3/cmake_install.cmake")
   include("/home/margaux/Documents/S3_OPENGL/GLImac-Template-build/TP_template/cmake_install.cmake")
   include("/home/margaux/Documents/S3_OPENGL/GLImac-Template-build/TPgarbage/cmake_install.cmake")
 
