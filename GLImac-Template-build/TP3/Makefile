@@ -125,6 +125,21 @@ TP3_exo_1/fast:
 	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_exo_1.dir/build.make TP3/CMakeFiles/TP3_exo_1.dir/build
 .PHONY : TP3_exo_1/fast
 
+# Convenience name for target.
+TP3/CMakeFiles/TP3_exo_2.dir/rule:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP3/CMakeFiles/TP3_exo_2.dir/rule
+.PHONY : TP3/CMakeFiles/TP3_exo_2.dir/rule
+
+# Convenience name for target.
+TP3_exo_2: TP3/CMakeFiles/TP3_exo_2.dir/rule
+
+.PHONY : TP3_exo_2
+
+# fast build rule for target.
+TP3_exo_2/fast:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_exo_2.dir/build.make TP3/CMakeFiles/TP3_exo_2.dir/build
+.PHONY : TP3_exo_2/fast
+
 exo_1.o: exo_1.cpp.o
 
 .PHONY : exo_1.o
@@ -152,6 +167,33 @@ exo_1.cpp.s:
 	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_exo_1.dir/build.make TP3/CMakeFiles/TP3_exo_1.dir/exo_1.cpp.s
 .PHONY : exo_1.cpp.s
 
+exo_2.o: exo_2.cpp.o
+
+.PHONY : exo_2.o
+
+# target to build an object file
+exo_2.cpp.o:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_exo_2.dir/build.make TP3/CMakeFiles/TP3_exo_2.dir/exo_2.cpp.o
+.PHONY : exo_2.cpp.o
+
+exo_2.i: exo_2.cpp.i
+
+.PHONY : exo_2.i
+
+# target to preprocess a source file
+exo_2.cpp.i:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_exo_2.dir/build.make TP3/CMakeFiles/TP3_exo_2.dir/exo_2.cpp.i
+.PHONY : exo_2.cpp.i
+
+exo_2.s: exo_2.cpp.s
+
+.PHONY : exo_2.s
+
+# target to generate assembly for a file
+exo_2.cpp.s:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_exo_2.dir/build.make TP3/CMakeFiles/TP3_exo_2.dir/exo_2.cpp.s
+.PHONY : exo_2.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,11 +201,15 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... TP3_exo_1"
 	@echo "... edit_cache"
+	@echo "... TP3_exo_1"
+	@echo "... TP3_exo_2"
 	@echo "... exo_1.o"
 	@echo "... exo_1.i"
 	@echo "... exo_1.s"
+	@echo "... exo_2.o"
+	@echo "... exo_2.i"
+	@echo "... exo_2.s"
 .PHONY : help
 
 
