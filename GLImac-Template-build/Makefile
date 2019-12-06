@@ -293,6 +293,19 @@ TP2_exo5/fast:
 .PHONY : TP2_exo5/fast
 
 #=============================================================================
+# Target rules for targets named TP3_exo_2
+
+# Build rule for target.
+TP3_exo_2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP3_exo_2
+.PHONY : TP3_exo_2
+
+# fast build rule for target.
+TP3_exo_2/fast:
+	$(MAKE) -f TP3/CMakeFiles/TP3_exo_2.dir/build.make TP3/CMakeFiles/TP3_exo_2.dir/build
+.PHONY : TP3_exo_2/fast
+
+#=============================================================================
 # Target rules for targets named TP3_exo_1
 
 # Build rule for target.
@@ -306,17 +319,43 @@ TP3_exo_1/fast:
 .PHONY : TP3_exo_1/fast
 
 #=============================================================================
-# Target rules for targets named TP3_exo_2
+# Target rules for targets named TP3_exo_3
 
 # Build rule for target.
-TP3_exo_2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TP3_exo_2
-.PHONY : TP3_exo_2
+TP3_exo_3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP3_exo_3
+.PHONY : TP3_exo_3
 
 # fast build rule for target.
-TP3_exo_2/fast:
-	$(MAKE) -f TP3/CMakeFiles/TP3_exo_2.dir/build.make TP3/CMakeFiles/TP3_exo_2.dir/build
-.PHONY : TP3_exo_2/fast
+TP3_exo_3/fast:
+	$(MAKE) -f TP3/CMakeFiles/TP3_exo_3.dir/build.make TP3/CMakeFiles/TP3_exo_3.dir/build
+.PHONY : TP3_exo_3/fast
+
+#=============================================================================
+# Target rules for targets named TP3_exo_4
+
+# Build rule for target.
+TP3_exo_4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP3_exo_4
+.PHONY : TP3_exo_4
+
+# fast build rule for target.
+TP3_exo_4/fast:
+	$(MAKE) -f TP3/CMakeFiles/TP3_exo_4.dir/build.make TP3/CMakeFiles/TP3_exo_4.dir/build
+.PHONY : TP3_exo_4/fast
+
+#=============================================================================
+# Target rules for targets named TP3_exo_5
+
+# Build rule for target.
+TP3_exo_5: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP3_exo_5
+.PHONY : TP3_exo_5
+
+# fast build rule for target.
+TP3_exo_5/fast:
+	$(MAKE) -f TP3/CMakeFiles/TP3_exo_5.dir/build.make TP3/CMakeFiles/TP3_exo_5.dir/build
+.PHONY : TP3_exo_5/fast
 
 #=============================================================================
 # Target rules for targets named TP_template_SDLtemplate
@@ -379,8 +418,11 @@ help:
 	@echo "... TP2_exo3_mandelbroot"
 	@echo "... TP2_exo4"
 	@echo "... TP2_exo5"
-	@echo "... TP3_exo_1"
 	@echo "... TP3_exo_2"
+	@echo "... TP3_exo_1"
+	@echo "... TP3_exo_3"
+	@echo "... TP3_exo_4"
+	@echo "... TP3_exo_5"
 	@echo "... TP_template_SDLtemplate"
 	@echo "... TPgarbage_SDLtemplate"
 	@echo "... TPgarbage_foo"

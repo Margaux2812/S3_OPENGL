@@ -20,10 +20,13 @@
 /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/TP2/CMakeFiles/TP2_exo4.dir
 /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/TP2/CMakeFiles/edit_cache.dir
 /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/TP2/CMakeFiles/TP2_exo5.dir
-/home/margaux/Documents/S3_OPENGL/GLImac-Template-build/TP3/CMakeFiles/rebuild_cache.dir
 /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/TP3/CMakeFiles/edit_cache.dir
-/home/margaux/Documents/S3_OPENGL/GLImac-Template-build/TP3/CMakeFiles/TP3_exo_1.dir
 /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/TP3/CMakeFiles/TP3_exo_2.dir
+/home/margaux/Documents/S3_OPENGL/GLImac-Template-build/TP3/CMakeFiles/rebuild_cache.dir
+/home/margaux/Documents/S3_OPENGL/GLImac-Template-build/TP3/CMakeFiles/TP3_exo_1.dir
+/home/margaux/Documents/S3_OPENGL/GLImac-Template-build/TP3/CMakeFiles/TP3_exo_3.dir
+/home/margaux/Documents/S3_OPENGL/GLImac-Template-build/TP3/CMakeFiles/TP3_exo_4.dir
+/home/margaux/Documents/S3_OPENGL/GLImac-Template-build/TP3/CMakeFiles/TP3_exo_5.dir
 /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/TP_template/CMakeFiles/rebuild_cache.dir
 /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/TP_template/CMakeFiles/TP_template_SDLtemplate.dir
 /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/TP_template/CMakeFiles/edit_cache.dir

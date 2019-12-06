@@ -52,7 +52,7 @@ glm::mat3 scale(float sx, float sy){
 
 int main(int argc, char** argv) {
     // Initialize SDL and open a window
-    SDLWindowManager windowManager(800, 800, "GLImac");
+    SDLWindowManager windowManager(800, 800, "Triforce");
 
     // Initialize glew for OpenGL3+ support
     GLenum glewInitError = glewInit();

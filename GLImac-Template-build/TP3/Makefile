@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/margaux/Documents/S3_OPENGL/GLImac-Template-build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,6 +111,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+TP3/CMakeFiles/TP3_exo_2.dir/rule:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP3/CMakeFiles/TP3_exo_2.dir/rule
+.PHONY : TP3/CMakeFiles/TP3_exo_2.dir/rule
+
+# Convenience name for target.
+TP3_exo_2: TP3/CMakeFiles/TP3_exo_2.dir/rule
+
+.PHONY : TP3_exo_2
+
+# fast build rule for target.
+TP3_exo_2/fast:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_exo_2.dir/build.make TP3/CMakeFiles/TP3_exo_2.dir/build
+.PHONY : TP3_exo_2/fast
+
+# Convenience name for target.
 TP3/CMakeFiles/TP3_exo_1.dir/rule:
 	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP3/CMakeFiles/TP3_exo_1.dir/rule
 .PHONY : TP3/CMakeFiles/TP3_exo_1.dir/rule
@@ -126,19 +141,49 @@ TP3_exo_1/fast:
 .PHONY : TP3_exo_1/fast
 
 # Convenience name for target.
-TP3/CMakeFiles/TP3_exo_2.dir/rule:
-	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP3/CMakeFiles/TP3_exo_2.dir/rule
-.PHONY : TP3/CMakeFiles/TP3_exo_2.dir/rule
+TP3/CMakeFiles/TP3_exo_3.dir/rule:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP3/CMakeFiles/TP3_exo_3.dir/rule
+.PHONY : TP3/CMakeFiles/TP3_exo_3.dir/rule
 
 # Convenience name for target.
-TP3_exo_2: TP3/CMakeFiles/TP3_exo_2.dir/rule
+TP3_exo_3: TP3/CMakeFiles/TP3_exo_3.dir/rule
 
-.PHONY : TP3_exo_2
+.PHONY : TP3_exo_3
 
 # fast build rule for target.
-TP3_exo_2/fast:
-	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_exo_2.dir/build.make TP3/CMakeFiles/TP3_exo_2.dir/build
-.PHONY : TP3_exo_2/fast
+TP3_exo_3/fast:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_exo_3.dir/build.make TP3/CMakeFiles/TP3_exo_3.dir/build
+.PHONY : TP3_exo_3/fast
+
+# Convenience name for target.
+TP3/CMakeFiles/TP3_exo_4.dir/rule:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP3/CMakeFiles/TP3_exo_4.dir/rule
+.PHONY : TP3/CMakeFiles/TP3_exo_4.dir/rule
+
+# Convenience name for target.
+TP3_exo_4: TP3/CMakeFiles/TP3_exo_4.dir/rule
+
+.PHONY : TP3_exo_4
+
+# fast build rule for target.
+TP3_exo_4/fast:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_exo_4.dir/build.make TP3/CMakeFiles/TP3_exo_4.dir/build
+.PHONY : TP3_exo_4/fast
+
+# Convenience name for target.
+TP3/CMakeFiles/TP3_exo_5.dir/rule:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP3/CMakeFiles/TP3_exo_5.dir/rule
+.PHONY : TP3/CMakeFiles/TP3_exo_5.dir/rule
+
+# Convenience name for target.
+TP3_exo_5: TP3/CMakeFiles/TP3_exo_5.dir/rule
+
+.PHONY : TP3_exo_5
+
+# fast build rule for target.
+TP3_exo_5/fast:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_exo_5.dir/build.make TP3/CMakeFiles/TP3_exo_5.dir/build
+.PHONY : TP3_exo_5/fast
 
 exo_1.o: exo_1.cpp.o
 
@@ -194,22 +239,115 @@ exo_2.cpp.s:
 	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_exo_2.dir/build.make TP3/CMakeFiles/TP3_exo_2.dir/exo_2.cpp.s
 .PHONY : exo_2.cpp.s
 
+exo_3.o: exo_3.cpp.o
+
+.PHONY : exo_3.o
+
+# target to build an object file
+exo_3.cpp.o:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_exo_3.dir/build.make TP3/CMakeFiles/TP3_exo_3.dir/exo_3.cpp.o
+.PHONY : exo_3.cpp.o
+
+exo_3.i: exo_3.cpp.i
+
+.PHONY : exo_3.i
+
+# target to preprocess a source file
+exo_3.cpp.i:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_exo_3.dir/build.make TP3/CMakeFiles/TP3_exo_3.dir/exo_3.cpp.i
+.PHONY : exo_3.cpp.i
+
+exo_3.s: exo_3.cpp.s
+
+.PHONY : exo_3.s
+
+# target to generate assembly for a file
+exo_3.cpp.s:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_exo_3.dir/build.make TP3/CMakeFiles/TP3_exo_3.dir/exo_3.cpp.s
+.PHONY : exo_3.cpp.s
+
+exo_4.o: exo_4.cpp.o
+
+.PHONY : exo_4.o
+
+# target to build an object file
+exo_4.cpp.o:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_exo_4.dir/build.make TP3/CMakeFiles/TP3_exo_4.dir/exo_4.cpp.o
+.PHONY : exo_4.cpp.o
+
+exo_4.i: exo_4.cpp.i
+
+.PHONY : exo_4.i
+
+# target to preprocess a source file
+exo_4.cpp.i:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_exo_4.dir/build.make TP3/CMakeFiles/TP3_exo_4.dir/exo_4.cpp.i
+.PHONY : exo_4.cpp.i
+
+exo_4.s: exo_4.cpp.s
+
+.PHONY : exo_4.s
+
+# target to generate assembly for a file
+exo_4.cpp.s:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_exo_4.dir/build.make TP3/CMakeFiles/TP3_exo_4.dir/exo_4.cpp.s
+.PHONY : exo_4.cpp.s
+
+exo_5.o: exo_5.cpp.o
+
+.PHONY : exo_5.o
+
+# target to build an object file
+exo_5.cpp.o:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_exo_5.dir/build.make TP3/CMakeFiles/TP3_exo_5.dir/exo_5.cpp.o
+.PHONY : exo_5.cpp.o
+
+exo_5.i: exo_5.cpp.i
+
+.PHONY : exo_5.i
+
+# target to preprocess a source file
+exo_5.cpp.i:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_exo_5.dir/build.make TP3/CMakeFiles/TP3_exo_5.dir/exo_5.cpp.i
+.PHONY : exo_5.cpp.i
+
+exo_5.s: exo_5.cpp.s
+
+.PHONY : exo_5.s
+
+# target to generate assembly for a file
+exo_5.cpp.s:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_exo_5.dir/build.make TP3/CMakeFiles/TP3_exo_5.dir/exo_5.cpp.s
+.PHONY : exo_5.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... TP3_exo_1"
 	@echo "... TP3_exo_2"
+	@echo "... rebuild_cache"
+	@echo "... TP3_exo_1"
+	@echo "... TP3_exo_3"
+	@echo "... TP3_exo_4"
+	@echo "... TP3_exo_5"
 	@echo "... exo_1.o"
 	@echo "... exo_1.i"
 	@echo "... exo_1.s"
 	@echo "... exo_2.o"
 	@echo "... exo_2.i"
 	@echo "... exo_2.s"
+	@echo "... exo_3.o"
+	@echo "... exo_3.i"
+	@echo "... exo_3.s"
+	@echo "... exo_4.o"
+	@echo "... exo_4.i"
+	@echo "... exo_4.s"
+	@echo "... exo_5.o"
+	@echo "... exo_5.i"
+	@echo "... exo_5.s"
 .PHONY : help
 
 

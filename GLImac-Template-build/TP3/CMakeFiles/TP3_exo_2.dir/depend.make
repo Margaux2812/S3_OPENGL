@@ -3,6 +3,7 @@
 
 TP3/CMakeFiles/TP3_exo_2.dir/exo_2.cpp.o: /home/margaux/Documents/S3_OPENGL/GLImac-Template/TP3/exo_2.cpp
 TP3/CMakeFiles/TP3_exo_2.dir/exo_2.cpp.o: /home/margaux/Documents/S3_OPENGL/GLImac-Template/glimac/include/glimac/FilePath.hpp
+TP3/CMakeFiles/TP3_exo_2.dir/exo_2.cpp.o: /home/margaux/Documents/S3_OPENGL/GLImac-Template/glimac/include/glimac/Image.hpp
 TP3/CMakeFiles/TP3_exo_2.dir/exo_2.cpp.o: /home/margaux/Documents/S3_OPENGL/GLImac-Template/glimac/include/glimac/Program.hpp
 TP3/CMakeFiles/TP3_exo_2.dir/exo_2.cpp.o: /home/margaux/Documents/S3_OPENGL/GLImac-Template/glimac/include/glimac/SDLWindowManager.hpp
 TP3/CMakeFiles/TP3_exo_2.dir/exo_2.cpp.o: /home/margaux/Documents/S3_OPENGL/GLImac-Template/glimac/include/glimac/Shader.hpp

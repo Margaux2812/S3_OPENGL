@@ -23,8 +23,10 @@ int main(int argc, char** argv) {
     FilePath applicationPath(argv[0]);
 
     std::unique_ptr<Image> earth = loadImage(applicationPath.dirPath() + "../../GLImac-Template/assets/textures/EarthMap.jpg");
+    std::unique_ptr<Image> moon = loadImage(applicationPath.dirPath() + "../../GLImac-Template/assets/textures/MoonMap.jpg");
     
     if(earth == NULL) std::cout << "Earth's image not loaded" << std::endl;
+    if(moon == NULL) std::cout << "Moon's image not loaded" << std::endl;
 
     Program program = loadProgram(applicationPath.dirPath() + "shaders/3D.vs.glsl",
                               applicationPath.dirPath() + "shaders/tex3D.fs.glsl");
@@ -34,11 +36,11 @@ int main(int argc, char** argv) {
     GLint uMVPMatrix = glGetUniformLocation(program.getGLId(), "uMVPMatrix");
     GLint uMVMatrix = glGetUniformLocation(program.getGLId(), "uMVMatrix");
     GLint uNormalMatrix = glGetUniformLocation(program.getGLId(), "uNormalMatrix");
-    GLint uEarthTextureLocation = glGetUniformLocation(program.getGLId(), "uTexture");
+    GLint uTextureLocation = glGetUniformLocation(program.getGLId(), "uTexture");
     
     std::cout << "OpenGL Version : " << glGetString(GL_VERSION) << std::endl;
     std::cout << "GLEW Version : " << glewGetString(GLEW_VERSION) << std::endl;
-    std::cout << "uEarthTextureLocation : " << uEarthTextureLocation << std::endl;
+    std::cout << "uTextureLocation : " << uTextureLocation << std::endl;
 
     /*********************************
      * HERE SHOULD COME THE INITIALIZATION CODE
@@ -97,10 +99,10 @@ int main(int argc, char** argv) {
     }
 
     //Textures
-    GLuint texturesArray[1];
+    GLuint texturesArray[2];
 
-    glGenTextures(1, texturesArray);
-    //Bind texture
+    glGenTextures(2, texturesArray);
+    //Bind texture 1
     glBindTexture(GL_TEXTURE_2D, texturesArray[0]);
     glTexImage2D(GL_TEXTURE_2D,
         0,
@@ -113,7 +115,22 @@ int main(int argc, char** argv) {
         earth->getPixels());
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+    //Debinder texture
+    glBindTexture(GL_TEXTURE_2D, 0);
 
+    //Bind texture 2
+    glBindTexture(GL_TEXTURE_2D, texturesArray[1]);
+    glTexImage2D(GL_TEXTURE_2D,
+        0,
+        GL_RGBA,
+        moon->getWidth(),
+        moon->getHeight(),
+        0,
+        GL_RGBA,
+        GL_FLOAT,
+        moon->getPixels());
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
     //Debinder texture
     glBindTexture(GL_TEXTURE_2D, 0);
 
@@ -136,9 +153,8 @@ int main(int argc, char** argv) {
 
         glBindVertexArray(vao); //Binder la VAO
         //binder texture
-        glActiveTexture(GL_TEXTURE0);
         glBindTexture(GL_TEXTURE_2D, texturesArray[0]);
-        glUniform1i(uEarthTextureLocation, 0);
+        glUniform1i(uTextureLocation, 0);
 
         //Premiere planete
         MVMatrix = glm::translate(
@@ -162,8 +178,15 @@ int main(int argc, char** argv) {
         	glm::value_ptr(NormalMatrix)
         	);
 
+        glUniform1i(uTextureLocation, 0);
+        glBindTexture(GL_TEXTURE_2D, texturesArray[0]);
+
        	glDrawArrays(GL_TRIANGLES, 0, sphere.getVertexCount());
+
+        glBindTexture(GL_TEXTURE_2D, 0);
         
+        glBindTexture(GL_TEXTURE_2D, texturesArray[1]);
+
         for(int i=0; i<32; i++){
             //Lune
             MVMatrix = glm::translate(glm::mat4(1), glm::vec3(0, 0, -5*axesRotations[i].x*axesRotations[i].y*axesRotations[i].z));
@@ -196,7 +219,7 @@ int main(int argc, char** argv) {
 
     glDeleteBuffers(1, &vbo);
     glDeleteVertexArrays(1, &vao);
-    glDeleteTextures(1, texturesArray);
+    glDeleteTextures(2, texturesArray);
 
     return EXIT_SUCCESS;
 }
