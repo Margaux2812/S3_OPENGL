@@ -89,7 +89,7 @@ glimac/preinstall:
 glimac/CMakeFiles/glimac.dir/all:
 	$(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/depend
 	$(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles --progress-num=43,44,45,46,47,48,49,50,51 "Built target glimac"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles --progress-num=47,48,49,50,51,52,53,54,55,56,57 "Built target glimac"
 .PHONY : glimac/CMakeFiles/glimac.dir/all
 
 # Include target in all.
@@ -99,7 +99,7 @@ all: glimac/CMakeFiles/glimac.dir/all
 
 # Build rule for subdir invocation for target.
 glimac/CMakeFiles/glimac.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 glimac/CMakeFiles/glimac.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : glimac/CMakeFiles/glimac.dir/rule
@@ -168,7 +168,7 @@ all: TP1/CMakeFiles/TP1_exo5_disque_couleur.dir/all
 
 # Build rule for subdir invocation for target.
 TP1/CMakeFiles/TP1_exo5_disque_couleur.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exo5_disque_couleur.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP1/CMakeFiles/TP1_exo5_disque_couleur.dir/rule
@@ -205,7 +205,7 @@ all: TP1/CMakeFiles/TP1_exo7_buffer_index_cercle.dir/all
 
 # Build rule for subdir invocation for target.
 TP1/CMakeFiles/TP1_exo7_buffer_index_cercle.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exo7_buffer_index_cercle.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP1/CMakeFiles/TP1_exo7_buffer_index_cercle.dir/rule
@@ -242,7 +242,7 @@ all: TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/all
 
 # Build rule for subdir invocation for target.
 TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/rule
@@ -279,7 +279,7 @@ all: TP1/CMakeFiles/TP1_exo6_buffer_index.dir/all
 
 # Build rule for subdir invocation for target.
 TP1/CMakeFiles/TP1_exo6_buffer_index.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exo6_buffer_index.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP1/CMakeFiles/TP1_exo6_buffer_index.dir/rule
@@ -316,7 +316,7 @@ all: TP1/CMakeFiles/TP1_exo2_triangle_couleur.dir/all
 
 # Build rule for subdir invocation for target.
 TP1/CMakeFiles/TP1_exo2_triangle_couleur.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exo2_triangle_couleur.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP1/CMakeFiles/TP1_exo2_triangle_couleur.dir/rule
@@ -353,7 +353,7 @@ all: TP1/CMakeFiles/TP1_SDLtemplate.dir/all
 
 # Build rule for subdir invocation for target.
 TP1/CMakeFiles/TP1_SDLtemplate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_SDLtemplate.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP1/CMakeFiles/TP1_SDLtemplate.dir/rule
@@ -390,7 +390,7 @@ all: TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/all
 
 # Build rule for subdir invocation for target.
 TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/rule
@@ -427,7 +427,7 @@ all: TP1/CMakeFiles/TP1_exo4_quad_couleur.dir/all
 
 # Build rule for subdir invocation for target.
 TP1/CMakeFiles/TP1_exo4_quad_couleur.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exo4_quad_couleur.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP1/CMakeFiles/TP1_exo4_quad_couleur.dir/rule
@@ -490,7 +490,7 @@ all: TP2/CMakeFiles/TP2_exo1_triangle_couleur.dir/all
 
 # Build rule for subdir invocation for target.
 TP2/CMakeFiles/TP2_exo1_triangle_couleur.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_exo1_triangle_couleur.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP2/CMakeFiles/TP2_exo1_triangle_couleur.dir/rule
@@ -527,7 +527,7 @@ all: TP2/CMakeFiles/TP2_exo2_triangle_nb.dir/all
 
 # Build rule for subdir invocation for target.
 TP2/CMakeFiles/TP2_exo2_triangle_nb.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_exo2_triangle_nb.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP2/CMakeFiles/TP2_exo2_triangle_nb.dir/rule
@@ -564,7 +564,7 @@ all: TP2/CMakeFiles/TP2_exo3_mandelbroot.dir/all
 
 # Build rule for subdir invocation for target.
 TP2/CMakeFiles/TP2_exo3_mandelbroot.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_exo3_mandelbroot.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP2/CMakeFiles/TP2_exo3_mandelbroot.dir/rule
@@ -601,7 +601,7 @@ all: TP2/CMakeFiles/TP2_exo4.dir/all
 
 # Build rule for subdir invocation for target.
 TP2/CMakeFiles/TP2_exo4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_exo4.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP2/CMakeFiles/TP2_exo4.dir/rule
@@ -638,7 +638,7 @@ all: TP2/CMakeFiles/TP2_exo5.dir/all
 
 # Build rule for subdir invocation for target.
 TP2/CMakeFiles/TP2_exo5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_exo5.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP2/CMakeFiles/TP2_exo5.dir/rule
@@ -662,7 +662,9 @@ clean: TP2/CMakeFiles/TP2_exo5.dir/clean
 # Directory level rules for directory TP3
 
 # Convenience name for "all" pass in the directory.
+TP3/all: TP3/CMakeFiles/TP3_exo_7.dir/all
 TP3/all: TP3/CMakeFiles/TP3_exo_2.dir/all
+TP3/all: TP3/CMakeFiles/TP3_exo_6.dir/all
 TP3/all: TP3/CMakeFiles/TP3_exo_1.dir/all
 TP3/all: TP3/CMakeFiles/TP3_exo_3.dir/all
 TP3/all: TP3/CMakeFiles/TP3_exo_4.dir/all
@@ -671,7 +673,9 @@ TP3/all: TP3/CMakeFiles/TP3_exo_5.dir/all
 .PHONY : TP3/all
 
 # Convenience name for "clean" pass in the directory.
+TP3/clean: TP3/CMakeFiles/TP3_exo_7.dir/clean
 TP3/clean: TP3/CMakeFiles/TP3_exo_2.dir/clean
+TP3/clean: TP3/CMakeFiles/TP3_exo_6.dir/clean
 TP3/clean: TP3/CMakeFiles/TP3_exo_1.dir/clean
 TP3/clean: TP3/CMakeFiles/TP3_exo_3.dir/clean
 TP3/clean: TP3/CMakeFiles/TP3_exo_4.dir/clean
@@ -683,6 +687,43 @@ TP3/clean: TP3/CMakeFiles/TP3_exo_5.dir/clean
 TP3/preinstall:
 
 .PHONY : TP3/preinstall
+
+#=============================================================================
+# Target rules for target TP3/CMakeFiles/TP3_exo_7.dir
+
+# All Build rule for target.
+TP3/CMakeFiles/TP3_exo_7.dir/all: glimac/CMakeFiles/glimac.dir/all
+	$(MAKE) -f TP3/CMakeFiles/TP3_exo_7.dir/build.make TP3/CMakeFiles/TP3_exo_7.dir/depend
+	$(MAKE) -f TP3/CMakeFiles/TP3_exo_7.dir/build.make TP3/CMakeFiles/TP3_exo_7.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles --progress-num=39,40 "Built target TP3_exo_7"
+.PHONY : TP3/CMakeFiles/TP3_exo_7.dir/all
+
+# Include target in all.
+all: TP3/CMakeFiles/TP3_exo_7.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+TP3/CMakeFiles/TP3_exo_7.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 13
+	$(MAKE) -f CMakeFiles/Makefile2 TP3/CMakeFiles/TP3_exo_7.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 0
+.PHONY : TP3/CMakeFiles/TP3_exo_7.dir/rule
+
+# Convenience name for target.
+TP3_exo_7: TP3/CMakeFiles/TP3_exo_7.dir/rule
+
+.PHONY : TP3_exo_7
+
+# clean rule for target.
+TP3/CMakeFiles/TP3_exo_7.dir/clean:
+	$(MAKE) -f TP3/CMakeFiles/TP3_exo_7.dir/build.make TP3/CMakeFiles/TP3_exo_7.dir/clean
+.PHONY : TP3/CMakeFiles/TP3_exo_7.dir/clean
+
+# clean rule for target.
+clean: TP3/CMakeFiles/TP3_exo_7.dir/clean
+
+.PHONY : clean
 
 #=============================================================================
 # Target rules for target TP3/CMakeFiles/TP3_exo_2.dir
@@ -701,7 +742,7 @@ all: TP3/CMakeFiles/TP3_exo_2.dir/all
 
 # Build rule for subdir invocation for target.
 TP3/CMakeFiles/TP3_exo_2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TP3/CMakeFiles/TP3_exo_2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP3/CMakeFiles/TP3_exo_2.dir/rule
@@ -722,6 +763,43 @@ clean: TP3/CMakeFiles/TP3_exo_2.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target TP3/CMakeFiles/TP3_exo_6.dir
+
+# All Build rule for target.
+TP3/CMakeFiles/TP3_exo_6.dir/all: glimac/CMakeFiles/glimac.dir/all
+	$(MAKE) -f TP3/CMakeFiles/TP3_exo_6.dir/build.make TP3/CMakeFiles/TP3_exo_6.dir/depend
+	$(MAKE) -f TP3/CMakeFiles/TP3_exo_6.dir/build.make TP3/CMakeFiles/TP3_exo_6.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles --progress-num=37,38 "Built target TP3_exo_6"
+.PHONY : TP3/CMakeFiles/TP3_exo_6.dir/all
+
+# Include target in all.
+all: TP3/CMakeFiles/TP3_exo_6.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+TP3/CMakeFiles/TP3_exo_6.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 13
+	$(MAKE) -f CMakeFiles/Makefile2 TP3/CMakeFiles/TP3_exo_6.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 0
+.PHONY : TP3/CMakeFiles/TP3_exo_6.dir/rule
+
+# Convenience name for target.
+TP3_exo_6: TP3/CMakeFiles/TP3_exo_6.dir/rule
+
+.PHONY : TP3_exo_6
+
+# clean rule for target.
+TP3/CMakeFiles/TP3_exo_6.dir/clean:
+	$(MAKE) -f TP3/CMakeFiles/TP3_exo_6.dir/build.make TP3/CMakeFiles/TP3_exo_6.dir/clean
+.PHONY : TP3/CMakeFiles/TP3_exo_6.dir/clean
+
+# clean rule for target.
+clean: TP3/CMakeFiles/TP3_exo_6.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target TP3/CMakeFiles/TP3_exo_1.dir
 
 # All Build rule for target.
@@ -738,7 +816,7 @@ all: TP3/CMakeFiles/TP3_exo_1.dir/all
 
 # Build rule for subdir invocation for target.
 TP3/CMakeFiles/TP3_exo_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TP3/CMakeFiles/TP3_exo_1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP3/CMakeFiles/TP3_exo_1.dir/rule
@@ -775,7 +853,7 @@ all: TP3/CMakeFiles/TP3_exo_3.dir/all
 
 # Build rule for subdir invocation for target.
 TP3/CMakeFiles/TP3_exo_3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TP3/CMakeFiles/TP3_exo_3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP3/CMakeFiles/TP3_exo_3.dir/rule
@@ -812,7 +890,7 @@ all: TP3/CMakeFiles/TP3_exo_4.dir/all
 
 # Build rule for subdir invocation for target.
 TP3/CMakeFiles/TP3_exo_4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TP3/CMakeFiles/TP3_exo_4.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP3/CMakeFiles/TP3_exo_4.dir/rule
@@ -849,7 +927,7 @@ all: TP3/CMakeFiles/TP3_exo_5.dir/all
 
 # Build rule for subdir invocation for target.
 TP3/CMakeFiles/TP3_exo_5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TP3/CMakeFiles/TP3_exo_5.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP3/CMakeFiles/TP3_exo_5.dir/rule
@@ -894,7 +972,7 @@ TP_template/preinstall:
 TP_template/CMakeFiles/TP_template_SDLtemplate.dir/all: glimac/CMakeFiles/glimac.dir/all
 	$(MAKE) -f TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build.make TP_template/CMakeFiles/TP_template_SDLtemplate.dir/depend
 	$(MAKE) -f TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build.make TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles --progress-num=37,38 "Built target TP_template_SDLtemplate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles --progress-num=41,42 "Built target TP_template_SDLtemplate"
 .PHONY : TP_template/CMakeFiles/TP_template_SDLtemplate.dir/all
 
 # Include target in all.
@@ -904,7 +982,7 @@ all: TP_template/CMakeFiles/TP_template_SDLtemplate.dir/all
 
 # Build rule for subdir invocation for target.
 TP_template/CMakeFiles/TP_template_SDLtemplate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TP_template/CMakeFiles/TP_template_SDLtemplate.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP_template/CMakeFiles/TP_template_SDLtemplate.dir/rule
@@ -951,7 +1029,7 @@ TPgarbage/preinstall:
 TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/all: glimac/CMakeFiles/glimac.dir/all
 	$(MAKE) -f TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/build.make TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/depend
 	$(MAKE) -f TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/build.make TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles --progress-num=39,40 "Built target TPgarbage_SDLtemplate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles --progress-num=43,44 "Built target TPgarbage_SDLtemplate"
 .PHONY : TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/all
 
 # Include target in all.
@@ -961,7 +1039,7 @@ all: TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/all
 
 # Build rule for subdir invocation for target.
 TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/rule
@@ -988,7 +1066,7 @@ clean: TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/clean
 TPgarbage/CMakeFiles/TPgarbage_foo.dir/all: glimac/CMakeFiles/glimac.dir/all
 	$(MAKE) -f TPgarbage/CMakeFiles/TPgarbage_foo.dir/build.make TPgarbage/CMakeFiles/TPgarbage_foo.dir/depend
 	$(MAKE) -f TPgarbage/CMakeFiles/TPgarbage_foo.dir/build.make TPgarbage/CMakeFiles/TPgarbage_foo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles --progress-num=41,42 "Built target TPgarbage_foo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles --progress-num=45,46 "Built target TPgarbage_foo"
 .PHONY : TPgarbage/CMakeFiles/TPgarbage_foo.dir/all
 
 # Include target in all.
@@ -998,7 +1076,7 @@ all: TPgarbage/CMakeFiles/TPgarbage_foo.dir/all
 
 # Build rule for subdir invocation for target.
 TPgarbage/CMakeFiles/TPgarbage_foo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TPgarbage/CMakeFiles/TPgarbage_foo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/margaux/Documents/S3_OPENGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TPgarbage/CMakeFiles/TPgarbage_foo.dir/rule

@@ -111,6 +111,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+TP3/CMakeFiles/TP3_exo_7.dir/rule:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP3/CMakeFiles/TP3_exo_7.dir/rule
+.PHONY : TP3/CMakeFiles/TP3_exo_7.dir/rule
+
+# Convenience name for target.
+TP3_exo_7: TP3/CMakeFiles/TP3_exo_7.dir/rule
+
+.PHONY : TP3_exo_7
+
+# fast build rule for target.
+TP3_exo_7/fast:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_exo_7.dir/build.make TP3/CMakeFiles/TP3_exo_7.dir/build
+.PHONY : TP3_exo_7/fast
+
+# Convenience name for target.
 TP3/CMakeFiles/TP3_exo_2.dir/rule:
 	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP3/CMakeFiles/TP3_exo_2.dir/rule
 .PHONY : TP3/CMakeFiles/TP3_exo_2.dir/rule
@@ -124,6 +139,21 @@ TP3_exo_2: TP3/CMakeFiles/TP3_exo_2.dir/rule
 TP3_exo_2/fast:
 	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_exo_2.dir/build.make TP3/CMakeFiles/TP3_exo_2.dir/build
 .PHONY : TP3_exo_2/fast
+
+# Convenience name for target.
+TP3/CMakeFiles/TP3_exo_6.dir/rule:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP3/CMakeFiles/TP3_exo_6.dir/rule
+.PHONY : TP3/CMakeFiles/TP3_exo_6.dir/rule
+
+# Convenience name for target.
+TP3_exo_6: TP3/CMakeFiles/TP3_exo_6.dir/rule
+
+.PHONY : TP3_exo_6
+
+# fast build rule for target.
+TP3_exo_6/fast:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_exo_6.dir/build.make TP3/CMakeFiles/TP3_exo_6.dir/build
+.PHONY : TP3_exo_6/fast
 
 # Convenience name for target.
 TP3/CMakeFiles/TP3_exo_1.dir/rule:
@@ -320,6 +350,60 @@ exo_5.cpp.s:
 	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_exo_5.dir/build.make TP3/CMakeFiles/TP3_exo_5.dir/exo_5.cpp.s
 .PHONY : exo_5.cpp.s
 
+exo_6.o: exo_6.cpp.o
+
+.PHONY : exo_6.o
+
+# target to build an object file
+exo_6.cpp.o:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_exo_6.dir/build.make TP3/CMakeFiles/TP3_exo_6.dir/exo_6.cpp.o
+.PHONY : exo_6.cpp.o
+
+exo_6.i: exo_6.cpp.i
+
+.PHONY : exo_6.i
+
+# target to preprocess a source file
+exo_6.cpp.i:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_exo_6.dir/build.make TP3/CMakeFiles/TP3_exo_6.dir/exo_6.cpp.i
+.PHONY : exo_6.cpp.i
+
+exo_6.s: exo_6.cpp.s
+
+.PHONY : exo_6.s
+
+# target to generate assembly for a file
+exo_6.cpp.s:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_exo_6.dir/build.make TP3/CMakeFiles/TP3_exo_6.dir/exo_6.cpp.s
+.PHONY : exo_6.cpp.s
+
+exo_7.o: exo_7.cpp.o
+
+.PHONY : exo_7.o
+
+# target to build an object file
+exo_7.cpp.o:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_exo_7.dir/build.make TP3/CMakeFiles/TP3_exo_7.dir/exo_7.cpp.o
+.PHONY : exo_7.cpp.o
+
+exo_7.i: exo_7.cpp.i
+
+.PHONY : exo_7.i
+
+# target to preprocess a source file
+exo_7.cpp.i:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_exo_7.dir/build.make TP3/CMakeFiles/TP3_exo_7.dir/exo_7.cpp.i
+.PHONY : exo_7.cpp.i
+
+exo_7.s: exo_7.cpp.s
+
+.PHONY : exo_7.s
+
+# target to generate assembly for a file
+exo_7.cpp.s:
+	cd /home/margaux/Documents/S3_OPENGL/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_exo_7.dir/build.make TP3/CMakeFiles/TP3_exo_7.dir/exo_7.cpp.s
+.PHONY : exo_7.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -327,8 +411,10 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... TP3_exo_7"
 	@echo "... TP3_exo_2"
 	@echo "... rebuild_cache"
+	@echo "... TP3_exo_6"
 	@echo "... TP3_exo_1"
 	@echo "... TP3_exo_3"
 	@echo "... TP3_exo_4"
@@ -348,6 +434,12 @@ help:
 	@echo "... exo_5.o"
 	@echo "... exo_5.i"
 	@echo "... exo_5.s"
+	@echo "... exo_6.o"
+	@echo "... exo_6.i"
+	@echo "... exo_6.s"
+	@echo "... exo_7.o"
+	@echo "... exo_7.i"
+	@echo "... exo_7.s"
 .PHONY : help
 
 

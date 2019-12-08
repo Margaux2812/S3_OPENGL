@@ -293,6 +293,19 @@ TP2_exo5/fast:
 .PHONY : TP2_exo5/fast
 
 #=============================================================================
+# Target rules for targets named TP3_exo_7
+
+# Build rule for target.
+TP3_exo_7: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP3_exo_7
+.PHONY : TP3_exo_7
+
+# fast build rule for target.
+TP3_exo_7/fast:
+	$(MAKE) -f TP3/CMakeFiles/TP3_exo_7.dir/build.make TP3/CMakeFiles/TP3_exo_7.dir/build
+.PHONY : TP3_exo_7/fast
+
+#=============================================================================
 # Target rules for targets named TP3_exo_2
 
 # Build rule for target.
@@ -304,6 +317,19 @@ TP3_exo_2: cmake_check_build_system
 TP3_exo_2/fast:
 	$(MAKE) -f TP3/CMakeFiles/TP3_exo_2.dir/build.make TP3/CMakeFiles/TP3_exo_2.dir/build
 .PHONY : TP3_exo_2/fast
+
+#=============================================================================
+# Target rules for targets named TP3_exo_6
+
+# Build rule for target.
+TP3_exo_6: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP3_exo_6
+.PHONY : TP3_exo_6
+
+# fast build rule for target.
+TP3_exo_6/fast:
+	$(MAKE) -f TP3/CMakeFiles/TP3_exo_6.dir/build.make TP3/CMakeFiles/TP3_exo_6.dir/build
+.PHONY : TP3_exo_6/fast
 
 #=============================================================================
 # Target rules for targets named TP3_exo_1
@@ -418,7 +444,9 @@ help:
 	@echo "... TP2_exo3_mandelbroot"
 	@echo "... TP2_exo4"
 	@echo "... TP2_exo5"
+	@echo "... TP3_exo_7"
 	@echo "... TP3_exo_2"
+	@echo "... TP3_exo_6"
 	@echo "... TP3_exo_1"
 	@echo "... TP3_exo_3"
 	@echo "... TP3_exo_4"
