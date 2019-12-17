@@ -201,7 +201,7 @@ int main(int argc, char** argv) {
 
             /*Appuyer sur une touche du clavier*/
             if(e.type == SDL_KEYDOWN){
-                float speed = 15.f;
+                float speed = 1.f;
                 switch(e.key.keysym.sym){
                     /*Z key to move forward*/
                     case SDLK_z: camera.moveFront(speed);
